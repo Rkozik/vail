@@ -3,11 +3,8 @@
 describe('greeter function', () => {
   //let res: object;
 
-  // TODO: Assert timestamp
+  // TODO: Assert format of response success
 
-  // TODO: Assert version
+  // TODO: Assert format of response failed to connect
 
-  // TODO Assert echo
-
-  // TODO Assert env
 });
