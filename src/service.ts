@@ -12,6 +12,10 @@ dotenv.config({path:__dirname+'/./../../.env'});
 
 const port = process.env.PORT;
 
+// function getEcho(message:string){
+//
+// }
+
 app.post('/', (req, res) => {
   const message:string = encodeURIComponent(req.query.message);
 
